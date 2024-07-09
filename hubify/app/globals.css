@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.main{
+    padding: 1em;
+}
+.logo-header{
+    margin-bottom: 1em;
+}

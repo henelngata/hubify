@@ -1,0 +1,147 @@
+.flex {
+  display: flex;
+  justify-content: space-between;
+}
+.logo_icons {
+  width: 40%;
+}
+
+.navigationBar {
+  width: 100%;
+  position: relative;
+  background-color: #fff;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 5px 13px;
+  box-sizing: border-box;
+  gap: 114px;
+}
+
+/* Posts style */
+.icons {
+  position: absolute;
+  top: calc(50% - 12px);
+  right: 12px;
+  width: 24px;
+  height: 24px;
+}
+.avatarIcon {
+    border:2px solid;
+  position: absolute;
+  height: 84.17%;
+  width: 84.17%;
+  top: 7.89%;
+  right: 7.94%;
+  bottom: 7.94%;
+  left: 7.89%;
+  border-radius: 100px;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.storyRing {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0%;
+  right: 0%;
+  bottom: 0%;
+  left: 0%;
+  border-radius: 50%;
+  border: 1.5px solid #c913b9;
+  box-sizing: border-box;
+}
+.avatar {
+  width: 36px;
+  position: relative;
+  height: 36px;
+}
+.ruffles {
+  position: relative;
+}
+.sponsored {
+  position: relative;
+  font-size: 11px;
+  letter-spacing: 0.3px;
+}
+.text {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 2px;
+}
+.avatarInfo {
+  position: relative;
+  top: calc(50% - 18px);
+  left: 13px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 8px;
+}
+.userHeaders {
+  width: 100%;
+  position: relative;
+  background-color: #fff;
+  overflow: hidden;
+  text-align: left;
+  font-size: 12px;
+  color: #000;
+}
+
+.ashleymatt1Icon {
+  width: 100%;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  height: 574px;
+  object-fit: cover;
+}
+
+.reaction {
+  width: 100%;
+  padding: 0.5em 0;
+}
+.reaction_lefticons {
+  position: relative;
+  width: 25%;
+}
+.reaction_icons {
+  width: 24px;
+  position: relative;
+  height: 24px;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.reaction_share {
+  width: 24px;
+  position: relative;
+  height: 24px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+
+.post_section{
+
+height: 85vh;
+overflow: auto;
+scroll-behavior: auto;
+
+}
+.post{
+position: relative;
+width: 100%;
+margin-bottom: 1em;
+}
+
+.userheader{
+    border: 2px solid red;
+    width: 15%;
+}
+
