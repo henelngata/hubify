@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 function Avatar({ src, width, height }) {
   return (
     <section>
@@ -11,19 +13,62 @@ function Avatar({ src, width, height }) {
   );
 }
 
-function ProfileMeta({ number, text }) {
-    return
-    <section>
-        <b>number</b>
-        <p>text</p>
-  </section>;
+function ProfileMetaText({ number, text }) {
+  return (
+       <section>
+      <b>{ number}</b>
+      <p>{ text}</p>
+  </section>
+    )
+   
 }
 
+
+function ProfileMeta(params) {
+  return (
+    <section>
+      <ProfileMetaText number={54} text="Posts" />
+      <ProfileMetaText number={834} text="Followers" />
+      <ProfileMetaText number={54} text="Following" />
+      
+    </section>
+  )
+}
 function ProfileBio({name, bio}) {
     return (
         <section>
-            <b>name</b>
-            <p>bio</p>
+        <b>{ name}</b>
+        <p>{ bio}</p>
         </section>
     )
+}
+
+function ProfileEdit() {
+  return (
+    <button>
+      Edit Profile
+    </button>
+  )
+}
+
+function ProfileGrid() {
+  return (
+    <section>
+      <img src="/images/pr.png" alt="alal" />
+      <img src="/images/pr.png" alt="alal" />
+      <img src="/images/pr.png" alt="alal" />
+      <img src="/images/pr.png" alt="alal" />
+      <img src="/images/pr.png" alt="alal" />
+      <img src="/images/pr.png" alt="alal" />
+      
+    </section>
+  )
+}
+
+export {
+  ProfileMeta,
+  Avatar,
+  ProfileBio,
+  ProfileEdit,
+  ProfileGrid
 }
