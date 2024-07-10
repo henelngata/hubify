@@ -4,8 +4,12 @@ import { Avatar, ProfileBio, ProfileEdit, ProfileGrid, ProfileMeta } from "./ui/
 export default function Profile() {
     return (
         <main>
-            <section>
-                <Avatar />
+            <section className="border flex">
+                <Avatar
+                    src="/images/postpic.png"
+                    width={256}
+                    height={256}
+                    alt="An avatar profile pic" />
                 <ProfileMeta />
             </section>
             <section>
@@ -16,6 +20,9 @@ Everything is designed."/>
                 <ProfileEdit></ProfileEdit>
             </section>
             <section>
+                <section>
+                    <img alt="" src="grid-tab.svg" />
+                </section>
                 <ProfileGrid />
             </section>
        </main>

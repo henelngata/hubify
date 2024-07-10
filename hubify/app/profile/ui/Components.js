@@ -1,8 +1,8 @@
 import Image from "next/image";
-
+import styles from "@/app/profile/ui/components.module.css"
 function Avatar({ src, width, height }) {
   return (
-    <section>
+    <section className={styles.avatar}>
       <Image
         src={src}
         width={width}
@@ -26,7 +26,7 @@ function ProfileMetaText({ number, text }) {
 
 function ProfileMeta(params) {
   return (
-    <section>
+    <section className="flex">
       <ProfileMetaText number={54} text="Posts" />
       <ProfileMetaText number={834} text="Followers" />
       <ProfileMetaText number={54} text="Following" />

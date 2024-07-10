@@ -1,0 +1,14 @@
+.avatar{
+    border: 2px solid red;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+   
+position: relative;
+
+overflow: hidden;
+
+object-fit: cover;
+object-position: center;
+}
+
