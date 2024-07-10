@@ -16,3 +16,11 @@
 .border{
     border: 2px solid red;
 }
+.align_center{
+    align-items: center;
+
+}
+
+.width-60{
+    width: 60%;
+}

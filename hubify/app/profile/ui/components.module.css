@@ -1,7 +1,6 @@
 .avatar{
-    border: 2px solid red;
-    width: 150px;
-    height: 150px;
+    width: 80px;
+    height: 80px;
     border-radius: 50%;
    
 position: relative;
@@ -12,3 +11,37 @@ object-fit: cover;
 object-position: center;
 }
 
+
+.align{
+   align-items: center;
+}
+
+.profile_text{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+}
+.rectangle {
+    position: relative;
+    width: 100%;
+    border:1px solid ;
+    border-radius: 10px;
+    padding: .6em;
+    font-weight: bolder;
+    margin: 1em 0;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 2px 5px;
+}
+.gridTabIcon {
+    width: 100%;
+    position: relative;
+    max-width: 100%;
+    overflow: hidden;
+    height: 44px;
+    object-fit: cover;
+}

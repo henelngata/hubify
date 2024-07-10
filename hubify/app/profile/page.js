@@ -4,7 +4,7 @@ import { Avatar, ProfileBio, ProfileEdit, ProfileGrid, ProfileMeta } from "./ui/
 export default function Profile() {
     return (
         <main>
-            <section className="border flex">
+            <section className=" flex">
                 <Avatar
                     src="/images/postpic.png"
                     width={256}
@@ -14,6 +14,10 @@ export default function Profile() {
             </section>
             <section>
                 <ProfileBio name="Jacob West" bio="Digital goodies designer @pixsellz 
+Everything is designed.Digital goodies designer @pixsellz 
+Everything is designed.Digital goodies designer @pixsellz 
+Everything is designed.Digital goodies designer @pixsellz 
+Everything is designed.Digital goodies designer @pixsellz 
 Everything is designed."/>
             </section>
             <section>

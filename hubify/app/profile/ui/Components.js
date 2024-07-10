@@ -15,7 +15,7 @@ function Avatar({ src, width, height }) {
 
 function ProfileMetaText({ number, text }) {
   return (
-       <section>
+       <section className={`${styles.profile_text}  `}>
       <b>{ number}</b>
       <p>{ text}</p>
   </section>
@@ -26,7 +26,7 @@ function ProfileMetaText({ number, text }) {
 
 function ProfileMeta(params) {
   return (
-    <section className="flex">
+    <section className="flex align_center  width-60">
       <ProfileMetaText number={54} text="Posts" />
       <ProfileMetaText number={834} text="Followers" />
       <ProfileMetaText number={54} text="Following" />
@@ -45,7 +45,7 @@ function ProfileBio({name, bio}) {
 
 function ProfileEdit() {
   return (
-    <button>
+    <button className={styles.rectangle}>
       Edit Profile
     </button>
   )
@@ -53,18 +53,32 @@ function ProfileEdit() {
 
 function ProfileGrid() {
   return (
-    <section>
-      <img src="/images/pr.png" alt="alal" />
-      <img src="/images/pr.png" alt="alal" />
-      <img src="/images/pr.png" alt="alal" />
-      <img src="/images/pr.png" alt="alal" />
-      <img src="/images/pr.png" alt="alal" />
-      <img src="/images/pr.png" alt="alal" />
+    <>
+      <Image className={styles.gridTabIcon} src="images/grid-tab.svg" width={50} height={50} alt="girf tab" />
+    <section className={styles.grid}>
+      <PostPic src="/images/postpic.png" width={124} height={124}/>
+      <PostPic src="/images/postpic.png" width={124} height={124} />
+      <PostPic src="/images/postpic.png" width={124} height={124}/>
+      <PostPic src="/images/postpic.png" width={124} height={124} />
+      <PostPic src="/images/postpic.png" width={124} height={124}/>
+      <PostPic src="/images/postpic.png" width={124} height={124} />
       
-    </section>
+      </section>
+      </>
   )
 }
+function PostPic({src, width, height}) {
+  return (
+    <Image
+      src={src}
+      alt="your pics"
+      width={width}
+      height={height}
+    />
+  )
+ 
 
+}
 export {
   ProfileMeta,
   Avatar,
