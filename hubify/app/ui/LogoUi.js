@@ -31,8 +31,8 @@ function UserHeader() {
 	return (
     <section className={`${styles.flex}`}>
       <section className={`${styles.flex} ${styles.userheader}`}>
-        <section >
-          <img alt="" src="images/pic.png " />
+        <section className={styles.userheader_img}>
+          <img  className={styles.userheader_img} alt="" src="images/pic.png " />
           <section />
         </section>
         <section>

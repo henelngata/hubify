@@ -129,7 +129,7 @@
 
 .post_section{
 
-height: 85vh;
+height: 82vh;
 overflow: auto;
 scroll-behavior: auto;
 
@@ -141,7 +141,15 @@ margin-bottom: 1em;
 }
 
 .userheader{
-    border: 2px solid red;
-    width: 15%;
+    width: 20%;
+    align-items: center;
+  
 }
 
+.userheader_img{
+  object-fit: cover;
+  object-position: center;
+  border-radius: 50%;
+  width: 60%;
+ 
+}
