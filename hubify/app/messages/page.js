@@ -1,9 +1,18 @@
-import { Chat } from "./ui/components";
+import { Chat, SearchBar, TopBar } from "./ui/components";
 
 export default function Chats(params) {
   return (
     <>
-     <Chat/>
+      <TopBar/>
+      <SearchBar/>
+      <Chat />
+      <Chat />
+      <Chat />
+      <Chat />
+      <Chat />
+      <Chat />
+      <Chat />
+      <Chat />
     </>
   );
 }

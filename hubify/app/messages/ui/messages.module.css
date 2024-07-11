@@ -1,0 +1,33 @@
+.search {
+ 
+  width: 100%;
+  position: relative;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 1em 0; 
+  line-height: normal;
+  background-color: rgba(230, 230, 248, 0.12);
+}
+
+.search_input{
+    width: 94%;
+    padding: .2em;
+    background-color: inherit;
+    border: none;
+}
+.ovalIcon {
+width: 100%;
+position: relative;
+max-width: 100%;
+overflow: hidden;
+height: 56px;
+object-fit: cover;
+border-radius: 50%;
+}
+
+.chat_text{
+    width: 80%;
+}
+.chat{
+    margin: 1.3em 0;
+}
