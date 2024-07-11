@@ -54,18 +54,29 @@ function ProfileEdit() {
 function ProfileGrid() {
   return (
     <>
-      <Image className={styles.gridTabIcon} src="images/grid-tab.svg" width={50} height={50} alt="girf tab" />
-    <section className={styles.grid}>
-      <PostPic src="/images/postpic.png" width={124} height={124}/>
-      <PostPic src="/images/postpic.png" width={124} height={124} />
-      <PostPic src="/images/postpic.png" width={124} height={124}/>
-      <PostPic src="/images/postpic.png" width={124} height={124} />
-      <PostPic src="/images/postpic.png" width={124} height={124}/>
-      <PostPic src="/images/postpic.png" width={124} height={124} />
-      
+      <Image
+        className={styles.gridTabIcon}
+        src="images/grid-tab.svg"
+        width={50}
+        height={50}
+        alt="girf tab"
+      />
+      <section className={styles.grid}>
+        <PostPic src="/images/postpic.png" width={124} height={124} />
+        <PostPic src="/images/postpic.png" width={124} height={124} />
+        <PostPic src="/images/postpic.png" width={124} height={124} />
+        <PostPic src="/images/postpic.png" width={124} height={124} />
+        <PostPic src="/images/postpic.png" width={124} height={124} />
+        <PostPic src="/images/postpic.png" width={124} height={124} />
+        <PostPic src="/images/postpic.png" width={124} height={124} />
+        <PostPic src="/images/postpic.png" width={124} height={124} />
+        <PostPic src="/images/postpic.png" width={124} height={124} />
+        <PostPic src="/images/postpic.png" width={124} height={124} />
+        <PostPic src="/images/postpic.png" width={124} height={124} />
+        <PostPic src="/images/postpic.png" width={124} height={124} />
       </section>
-      </>
-  )
+    </>
+  );
 }
 function PostPic({src, width, height}) {
   return (

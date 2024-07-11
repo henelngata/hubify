@@ -99,7 +99,7 @@ function LikesText() {
 
 function NavigationBar() {
   return (
-    <section className={styles.flex}>
+    <section className={`${styles.flex} ${styles.navigationBar}`}>
       <img alt="" src="images/home.svg" />
       <img alt="" src="images/search.svg" />
       <img alt="" src="images/vid.svg" />

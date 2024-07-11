@@ -12,9 +12,7 @@ export default function Home() {
       <section>
         <Posts />
       </section>
-      <nav>
-        <NavigationBar />
-      </nav>
+     
     </main>
   );
 }
