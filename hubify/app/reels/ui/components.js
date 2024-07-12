@@ -1,7 +1,8 @@
-function Reel({src}) {
+import styles from "./reels.module.css"
+function Reel({ src }) {
   return (
     <section>
-      <video src={src} autoPlay  controls></video>
+      <video className={styles.vid} src={src} autoPlay  controls></video>
     </section>
   );
 }
