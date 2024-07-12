@@ -1,11 +1,19 @@
+import Link from "next/link";
 import styles from "./index.module.css";
 
 function LogoIcons() {
   return (
     <section className={`${styles.flex} ${styles.logo_icons}`}>
-      <img className={styles.i} alt="" src="images/heart.svg" />
-      <img className={styles.i} alt="" src="images/msg.svg" />
-      <img className={styles.i} alt="" src="images/add.svg" />
+      <Link href="./notifications">
+        <img className={styles.i} alt="" src="images/heart.svg" />
+      </Link>
+
+      <Link href="./messages">
+        <img className={styles.i} alt="" src="images/msg.svg" />
+      </Link>
+      <Link href="./new/posts">
+        <img className={styles.i} alt="" src="images/add.svg" />
+      </Link>
     </section>
   );
 }
@@ -100,10 +108,16 @@ function LikesText() {
 function NavigationBar() {
   return (
     <section className={`${styles.flex} ${styles.navigationBar}`}>
-      <img alt="" src="images/home.svg" />
-      <img alt="" src="images/search.svg" />
-      <img alt="" src="images/vid.svg" />
-      <img alt="" src="images/heart.svg" />
+      <Link href="/">
+        <img alt="" src="images/home.svg" />
+      </Link>
+      <Link href="./search">
+        <img alt="" src="images/search.svg" />
+      </Link>
+      <Link href="./reels">
+        <img alt="" src="images/vid.svg" />
+      </Link>
+
       <section>
         <img alt="" src="images/pr.png" />
         <section className={styles.nav_sectionider} />

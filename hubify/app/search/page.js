@@ -4,10 +4,10 @@ import { SearchCard } from "./ui/components";
 export default function () {
   return (
     <main>
-      <section >
+      <section>
         <SearchBar />
       </section>
-      <section className="border width-60vh">
+      <section className="border height-60vh">
         {/* the search cards */}
         <SearchCard />
         <SearchCard />

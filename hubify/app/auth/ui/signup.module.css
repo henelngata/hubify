@@ -1,0 +1,19 @@
+.input {
+  width: 100%;
+  margin: 1em 0;
+  position: relative;
+  border-radius: 5px;
+  background-color: #fafafa;
+  border: 0.5px solid rgba(0, 0, 0, 0.1);
+  box-sizing: border-box;
+  height: 44px;
+}
+
+.button {
+  width: 100%;
+  position: relative;
+  border-radius: 5px;
+  background-color: #3797ef;
+  height: 44px;
+  color: white;
+}

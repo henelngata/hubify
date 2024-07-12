@@ -25,5 +25,8 @@
     width: 60%;
 }
 .height-60vh{
-    width: 80vh;
+    height: 80vh;
+}
+.margin-auto{
+    margin: auto;
 }
