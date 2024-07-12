@@ -30,3 +30,9 @@
 .margin-auto{
     margin: auto;
 }
+.height-80vh{
+    height: 90vh;
+}
+.content-hidden{
+    overflow: auto;
+}
